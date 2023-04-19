@@ -1,4 +1,5 @@
 # Quizzical
+### Containerizing and publishing to Docker Hub using a Jenkins CI/CD pipeline.
 
 A Trivia Web App made with ❤️ and React
 
