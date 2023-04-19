@@ -1,13 +1,11 @@
-FROM node:latest
+# Use a lightweight Nginx image as the base image
+FROM nginx:alpine
 
-WORKDIR /app
+# Copy the build files from the previous stage into the image
+COPY --from=builder /app/build /usr/share/nginx/html
 
-COPY package*.json ./
+# Expose port 80 for the NGINX server
+EXPOSE 80
 
-RUN npm install
-
-COPY . .
-
-RUN npm run build
-
-CMD ["npm", "start"]
+# Start the NGINX server when the container starts
+CMD ["nginx", "-g", "daemon off;"]
