@@ -15,7 +15,6 @@ If you want to look how this was made/modify it, I recommend setting it up local
 ### How to setup & run the app locally
 
 - Clone this repository (`git clone https://github.com/pabloescoder/quizzical-app.git`)
-
 - Go to the project directory (`cd quizzical-app/`)
 - Run `npm install`
 - Wait for npm to install all the dependencies (might take some time)
