@@ -27,4 +27,4 @@ If you want to look how this was made/modify it, I recommend setting it up local
 
 API Used for fetching the questions - https://opentdb.com/
 
-Check out https://scrimba.com/learn/learnreact/ if you want to learn React!
+Check out https://scrimba.com/learn/learnreact/
